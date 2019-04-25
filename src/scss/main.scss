@@ -1,0 +1,28 @@
+.counter-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 28px;
+}
+
+.counter {
+    display: flex;
+}
+
+// Style for each block
+.block {
+    border: 1px solid black;
+    padding: 20px 30px;
+}
+
+//  Styling for center block containing the number
+.count {
+    border-left: none;
+    border-right: none;
+}
+
+// Styling for the reset button
+.reset {
+    border-left: none;
+}
